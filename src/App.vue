@@ -1,15 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h1>Zed Data</h1>
+  <ZedData msg="Making sense of digital horses."/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ZedData from './components/zed-data.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ZedData
   }
 }
 </script>
